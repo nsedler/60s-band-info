@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+#body {
+
+	background-color: red;
+	animation: bgcolor 175s infinite;
+}
+
+@keyframes bgcolor {
+
+	0% {background-color: #999;}
+	50% {background-color: white;}
+	100% {background-color: #999;}
+
+}
+
+
+#firsth1 {
+
+	text-align: center;
+	font-style: italic;
+
+	color: black;
+	font-size: 50px;
+
+}
+
+#item1 {
+
+	background-color: #C4C4C4;
+	height: 100%;
+	width: 30%;
+	border: 2px solid black;
+	border-radius: 2%;
+
+
+}
+
+.pinkFloyd, .ledZeppelin, .mettalica {
+
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+	display: flex;
+	width: 20%;
+	height: 20%;
+	position:relative;
+	flex-direction: ;
+
+	border: 1px solid black;
+
+}
+
+#pFImages, #lZImages, #metallicaImages {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+#saucer {
+
+	position: relative;
+	top: -2px;
+
+}
+
+
+
+#pfText, #lzText, #mText {
+
+color: rgb(53, 53, 53);
+font-size: 25px;
+
+margin-left: 8px;
+margin-right: 8px;
+
+}
+
+#hM, #hPF, #hLZ {
+
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-size: 40px;
+	text-decoration: underline;
+
+}
+
+
+#mainContainer {
+
+	display: flex;
+	justify-content: space-around;
+
+
+}
+
+#copywriteDisclaimer {
+
+	position: relative;
+	bottom: 0%;
+	text-align: center;
+	font-size: 15px;
+
+
+}
+
+
+
+.sources a:link, a:visited {
+
+	color: black;
+
+}
